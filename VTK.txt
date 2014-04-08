@@ -1,0 +1,11 @@
+”становка VTK.
+1) перейти по ссылке  - http://pinyotae.blogspot.in/2010/08/vtk-installation-on-windows-64-bit-for.html
+2)делаем шаги вплоть до 6(€ собирала проект дл€ 10 студии 64 битной)
+3)и далее до 15.
+
+ƒалее качаем  примеры из vtk, например:
+http://www.vtk.org/Wiki/VTK/Examples/Cxx/Visualization/CorrectlyRenderTranslucentGeometry
+и по пунктам:
+1) распаковка
+2) собираем через си мэйк
+3) запускаем через студию
