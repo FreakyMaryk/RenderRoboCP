@@ -1,0 +1,58 @@
+На вход подается .ply файл.
+Проводятся необходимые VTK настройки для рендеринга, в том числе устанавливается флаг off-screan renderring и 
+задается размер выходного изображения:
+  renWin->SetOffScreenRendering(1);
+  renWin->SetSize(720,480);
+  Задается формат выходного потока пикселей:
+  filter->SetInputBufferTypeToRGB();
+Рендерим.
+
+Получаем выходную высоту - ширину картинки.
+  int width = id->GetDimensions()[0];
+  int height = id->GetDimensions()[1];
+
+Записываем полный размер картинки:
+  int frameSize = height*width;
+
+Далее пробегаемся по всем пикселям на картинке и записываем значения channel,r,g,b
+в один int, кладем в список полученный int.
+
+  std::list <int> values;
+  for (int y = 0; y < height; y++)
+    {
+    for (int x = 0; x < width; x++)
+      {
+	  unsigned char* pixel = static_cast<unsigned char*>(id->GetScalarPointer(x,y,0));
+	   (* (Pix_struct *)(&tmp)).channel = 0; 
+		(* (Pix_struct *)(&tmp)).r = pixel[0];
+		(* (Pix_struct *)(&tmp)).g = pixel[1];
+		(* (Pix_struct *)(&tmp)).b = pixel[2];
+		values.push_front(tmp);
+	}
+    }
+Далее заводим массивы чаров для значений u y v после работы кодера, записываем список значений в массив чаров,
+как того требует кодер.
+	std::list<int>::iterator it = values.begin();
+	int * kk;
+	for (int j = 0; j < frameSize; j++, it++) {
+	kk = (int*) ( (int*)(buff[0] + j*sizeof(int)));
+	*kk = *it;
+	}
+Запускаем библиотеку, которая и занимается преобразованием из argb в yuv.
+cudaError_t cudaStatus = addWithCuda(buff[0],ych,uch,vch,frameSize, width, height);
+    if (cudaStatus != cudaSuccess) {
+        fprintf(stderr, "addWithCuda failed!");
+    }
+Здесь buff[0] - значит, что мы берем первую картинку, потом можно сделать цикл и преобразовывать сразу несколько
+
+Теперь по тому, что делает непосредственно AddWithCuda:
+Заводим указатели на массивы данных для GPU.
+Отводим память под массивы(ОДНОМЕРНЫЕ, для копировании многомерных массиовов нужно искать специальную функцию).
+Вызываем ядро.
+Копируем результат в CPU.
+
+
+Далее в рендере вызываем функцию из библиотеки записи:
+  writeYUVframe("C:\\Users\\FreakyMaryK\\Desktop\\SMR", 0, 60, width, height, ych, uch, vch);
+ 60 к-во кадров в секунду,
+ 0 - индекс изображения(в массиве buff)

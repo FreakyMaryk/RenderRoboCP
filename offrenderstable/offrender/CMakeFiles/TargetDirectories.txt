@@ -1,0 +1,3 @@
+C:/Users/FreakyMaryK/Desktop/offrender/CMakeFiles/ALL_BUILD.dir
+C:/Users/FreakyMaryK/Desktop/offrender/CMakeFiles/OffScreenRendering.dir
+C:/Users/FreakyMaryK/Desktop/offrender/CMakeFiles/ZERO_CHECK.dir

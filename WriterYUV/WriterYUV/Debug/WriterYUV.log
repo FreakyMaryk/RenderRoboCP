@@ -1,0 +1,37 @@
+﻿Построение начато 03.04.2014 6:35:31.
+     1>Проект "C:\Development\WriterYUV\WriterYUV\WriterYUV.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\WriterYUV.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_WINDOWS /D_USRDLL /DWRITERYUV_EXPORTS /D_WINDLL /D_UNICODE /DUNICODE /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" /I. /FIcuda_runtime.h /c C:\Development\WriterYUV\WriterYUV\WriterYUV.cu 
+       AddCudaCompilePropsDeps:
+       Целевой объект "AddCudaCompilePropsDeps" пропускается, так как все выходные файлы актуальны по отношению к входным.
+       CudaBuild:
+         Compiling CUDA source file WriterYUV.cu...
+         cmd.exe /C "C:\Users\FreakyMaryK\AppData\Local\Temp\tmp230556e699f84c31a7d02e3857d985c3.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_WINDOWS -D_USRDLL -DWRITERYUV_EXPORTS -D_WINDLL -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\WriterYUV.cu.obj "C:\Development\WriterYUV\WriterYUV\WriterYUV.cu"
+         
+         C:\Development\WriterYUV\WriterYUV>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_WINDOWS -D_USRDLL -DWRITERYUV_EXPORTS -D_WINDLL -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\WriterYUV.cu.obj "C:\Development\WriterYUV\WriterYUV\WriterYUV.cu" 
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+       ManifestResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\FreakyMaryK\Desktop\SMR\offrenderstable\offrender\Debug\WriterYUV.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\WriterYUV.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\FreakyMaryK\Desktop\SMR\offrenderstable\offrender\Debug\WriterYUV.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\FreakyMaryK\Desktop\SMR\offrenderstable\offrender\Debug\WriterYUV.lib" /MACHINE:X86 /DLL Debug\WriterYUV.cu.obj
+         Debug\WriterYUV.dll.embed.manifest.res
+         Debug\stdafx.obj
+            Создается библиотека C:\Users\FreakyMaryK\Desktop\SMR\offrenderstable\offrender\Debug\WriterYUV.lib и объект C:\Users\FreakyMaryK\Desktop\SMR\offrenderstable\offrender\Debug\WriterYUV.exp
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\WriterYUV.dll.embed.manifest" /manifest Debug\WriterYUV.dll.intermediate.manifest
+         Для всех выходных данных обновления не требуется.
+       LinkEmbedManifest:
+         Для всех выходных данных обновления не требуется.
+         WriterYUV.vcxproj -> C:\Users\FreakyMaryK\Desktop\SMR\offrenderstable\offrender\Debug\WriterYUV.dll
+       FinalizeBuildStatus:
+         Файл "Debug\WriterYUV.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\WriterYUV.lastbuildstate".
+     1>Построение проекта "C:\Development\WriterYUV\WriterYUV\WriterYUV.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:14.40

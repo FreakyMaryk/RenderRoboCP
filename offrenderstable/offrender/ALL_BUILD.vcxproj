@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{D796445F-7A36-4ABB-935A-F18522400E53}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/FreakyMaryK/BuildVTK58;C:/Users/FreakyMaryK/BuildVTK58/Common;C:/Users/FreakyMaryK/BuildVTK58/Utilities;C:/Users/FreakyMaryK/BuildVTK58/VolumeRendering;C:/Users/FreakyMaryK/BuildVTK58/Rendering;C:/Users/FreakyMaryK/BuildVTK58/Charts;C:/Users/FreakyMaryK/BuildVTK58/Utilities/vtkalglib;C:/Users/FreakyMaryK/vtk58/Infovis;C:/Users/FreakyMaryK/vtk58/Geovis;C:/Users/FreakyMaryK/vtk58/Views;C:/Users/FreakyMaryK/vtk58/VolumeRendering;C:/Users/FreakyMaryK/vtk58/Hybrid;C:/Users/FreakyMaryK/vtk58/Widgets;C:/Users/FreakyMaryK/vtk58/Rendering;C:/Users/FreakyMaryK/vtk58/Charts;C:/Users/FreakyMaryK/vtk58/Rendering/Testing/Cxx;C:/Users/FreakyMaryK/vtk58/IO;C:/Users/FreakyMaryK/vtk58/Imaging;C:/Users/FreakyMaryK/vtk58/Graphics;C:/Users/FreakyMaryK/vtk58/GenericFiltering;C:/Users/FreakyMaryK/vtk58/Filtering;C:/Users/FreakyMaryK/vtk58/Common;C:/Users/FreakyMaryK/vtk58/Utilities;C:/Users/FreakyMaryK/vtk58/Common/Testing/Cxx;C:/Users/FreakyMaryK/BuildVTK58/Utilities/vtklibproj4;C:/Users/FreakyMaryK/vtk58/Utilities/vtklibproj4;C:/Users/FreakyMaryK/BuildVTK58/Utilities/DICOMParser;C:/Users/FreakyMaryK/vtk58/Utilities/DICOMParser;C:/Users/FreakyMaryK/BuildVTK58/Utilities/vtkfreetype/include;C:/Users/FreakyMaryK/vtk58/Utilities/vtkfreetype/include;C:/Users/FreakyMaryK/BuildVTK58/Utilities/MaterialLibrary;C:/Users/FreakyMaryK/vtk58/Utilities/MaterialLibrary;C:/Users/FreakyMaryK/BuildVTK58/Utilities/verdict;C:/Users/FreakyMaryK/vtk58/Utilities/verdict;C:/Users/FreakyMaryK/BuildVTK58/Utilities/vtkhdf5;C:/Users/FreakyMaryK/vtk58/Utilities/vtkhdf5;C:/Users/FreakyMaryK/BuildVTK58/Utilities/vtkhdf5/src;C:/Users/FreakyMaryK/vtk58/Utilities/vtkhdf5/src;C:/Users/FreakyMaryK/vtk58/Utilities/utf8/source;C:/Users/FreakyMaryK/vtk58/Utilities/vtkalglib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/FreakyMaryK/BuildVTK58;C:/Users/FreakyMaryK/BuildVTK58/Common;C:/Users/FreakyMaryK/BuildVTK58/Utilities;C:/Users/FreakyMaryK/BuildVTK58/VolumeRendering;C:/Users/FreakyMaryK/BuildVTK58/Rendering;C:/Users/FreakyMaryK/BuildVTK58/Charts;C:/Users/FreakyMaryK/BuildVTK58/Utilities/vtkalglib;C:/Users/FreakyMaryK/vtk58/Infovis;C:/Users/FreakyMaryK/vtk58/Geovis;C:/Users/FreakyMaryK/vtk58/Views;C:/Users/FreakyMaryK/vtk58/VolumeRendering;C:/Users/FreakyMaryK/vtk58/Hybrid;C:/Users/FreakyMaryK/vtk58/Widgets;C:/Users/FreakyMaryK/vtk58/Rendering;C:/Users/FreakyMaryK/vtk58/Charts;C:/Users/FreakyMaryK/vtk58/Rendering/Testing/Cxx;C:/Users/FreakyMaryK/vtk58/IO;C:/Users/FreakyMaryK/vtk58/Imaging;C:/Users/FreakyMaryK/vtk58/Graphics;C:/Users/FreakyMaryK/vtk58/GenericFiltering;C:/Users/FreakyMaryK/vtk58/Filtering;C:/Users/FreakyMaryK/vtk58/Common;C:/Users/FreakyMaryK/vtk58/Utilities;C:/Users/FreakyMaryK/vtk58/Common/Testing/Cxx;C:/Users/FreakyMaryK/BuildVTK58/Utilities/vtklibproj4;C:/Users/FreakyMaryK/vtk58/Utilities/vtklibproj4;C:/Users/FreakyMaryK/BuildVTK58/Utilities/DICOMParser;C:/Users/FreakyMaryK/vtk58/Utilities/DICOMParser;C:/Users/FreakyMaryK/BuildVTK58/Utilities/vtkfreetype/include;C:/Users/FreakyMaryK/vtk58/Utilities/vtkfreetype/include;C:/Users/FreakyMaryK/BuildVTK58/Utilities/MaterialLibrary;C:/Users/FreakyMaryK/vtk58/Utilities/MaterialLibrary;C:/Users/FreakyMaryK/BuildVTK58/Utilities/verdict;C:/Users/FreakyMaryK/vtk58/Utilities/verdict;C:/Users/FreakyMaryK/BuildVTK58/Utilities/vtkhdf5;C:/Users/FreakyMaryK/vtk58/Utilities/vtkhdf5;C:/Users/FreakyMaryK/BuildVTK58/Utilities/vtkhdf5/src;C:/Users/FreakyMaryK/vtk58/Utilities/vtkhdf5/src;C:/Users/FreakyMaryK/vtk58/Utilities/utf8/source;C:/Users/FreakyMaryK/vtk58/Utilities/vtkalglib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/FreakyMaryK/BuildVTK58;C:/Users/FreakyMaryK/BuildVTK58/Common;C:/Users/FreakyMaryK/BuildVTK58/Utilities;C:/Users/FreakyMaryK/BuildVTK58/VolumeRendering;C:/Users/FreakyMaryK/BuildVTK58/Rendering;C:/Users/FreakyMaryK/BuildVTK58/Charts;C:/Users/FreakyMaryK/BuildVTK58/Utilities/vtkalglib;C:/Users/FreakyMaryK/vtk58/Infovis;C:/Users/FreakyMaryK/vtk58/Geovis;C:/Users/FreakyMaryK/vtk58/Views;C:/Users/FreakyMaryK/vtk58/VolumeRendering;C:/Users/FreakyMaryK/vtk58/Hybrid;C:/Users/FreakyMaryK/vtk58/Widgets;C:/Users/FreakyMaryK/vtk58/Rendering;C:/Users/FreakyMaryK/vtk58/Charts;C:/Users/FreakyMaryK/vtk58/Rendering/Testing/Cxx;C:/Users/FreakyMaryK/vtk58/IO;C:/Users/FreakyMaryK/vtk58/Imaging;C:/Users/FreakyMaryK/vtk58/Graphics;C:/Users/FreakyMaryK/vtk58/GenericFiltering;C:/Users/FreakyMaryK/vtk58/Filtering;C:/Users/FreakyMaryK/vtk58/Common;C:/Users/FreakyMaryK/vtk58/Utilities;C:/Users/FreakyMaryK/vtk58/Common/Testing/Cxx;C:/Users/FreakyMaryK/BuildVTK58/Utilities/vtklibproj4;C:/Users/FreakyMaryK/vtk58/Utilities/vtklibproj4;C:/Users/FreakyMaryK/BuildVTK58/Utilities/DICOMParser;C:/Users/FreakyMaryK/vtk58/Utilities/DICOMParser;C:/Users/FreakyMaryK/BuildVTK58/Utilities/vtkfreetype/include;C:/Users/FreakyMaryK/vtk58/Utilities/vtkfreetype/include;C:/Users/FreakyMaryK/BuildVTK58/Utilities/MaterialLibrary;C:/Users/FreakyMaryK/vtk58/Utilities/MaterialLibrary;C:/Users/FreakyMaryK/BuildVTK58/Utilities/verdict;C:/Users/FreakyMaryK/vtk58/Utilities/verdict;C:/Users/FreakyMaryK/BuildVTK58/Utilities/vtkhdf5;C:/Users/FreakyMaryK/vtk58/Utilities/vtkhdf5;C:/Users/FreakyMaryK/BuildVTK58/Utilities/vtkhdf5/src;C:/Users/FreakyMaryK/vtk58/Utilities/vtkhdf5/src;C:/Users/FreakyMaryK/vtk58/Utilities/utf8/source;C:/Users/FreakyMaryK/vtk58/Utilities/vtkalglib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/FreakyMaryK/BuildVTK58;C:/Users/FreakyMaryK/BuildVTK58/Common;C:/Users/FreakyMaryK/BuildVTK58/Utilities;C:/Users/FreakyMaryK/BuildVTK58/VolumeRendering;C:/Users/FreakyMaryK/BuildVTK58/Rendering;C:/Users/FreakyMaryK/BuildVTK58/Charts;C:/Users/FreakyMaryK/BuildVTK58/Utilities/vtkalglib;C:/Users/FreakyMaryK/vtk58/Infovis;C:/Users/FreakyMaryK/vtk58/Geovis;C:/Users/FreakyMaryK/vtk58/Views;C:/Users/FreakyMaryK/vtk58/VolumeRendering;C:/Users/FreakyMaryK/vtk58/Hybrid;C:/Users/FreakyMaryK/vtk58/Widgets;C:/Users/FreakyMaryK/vtk58/Rendering;C:/Users/FreakyMaryK/vtk58/Charts;C:/Users/FreakyMaryK/vtk58/Rendering/Testing/Cxx;C:/Users/FreakyMaryK/vtk58/IO;C:/Users/FreakyMaryK/vtk58/Imaging;C:/Users/FreakyMaryK/vtk58/Graphics;C:/Users/FreakyMaryK/vtk58/GenericFiltering;C:/Users/FreakyMaryK/vtk58/Filtering;C:/Users/FreakyMaryK/vtk58/Common;C:/Users/FreakyMaryK/vtk58/Utilities;C:/Users/FreakyMaryK/vtk58/Common/Testing/Cxx;C:/Users/FreakyMaryK/BuildVTK58/Utilities/vtklibproj4;C:/Users/FreakyMaryK/vtk58/Utilities/vtklibproj4;C:/Users/FreakyMaryK/BuildVTK58/Utilities/DICOMParser;C:/Users/FreakyMaryK/vtk58/Utilities/DICOMParser;C:/Users/FreakyMaryK/BuildVTK58/Utilities/vtkfreetype/include;C:/Users/FreakyMaryK/vtk58/Utilities/vtkfreetype/include;C:/Users/FreakyMaryK/BuildVTK58/Utilities/MaterialLibrary;C:/Users/FreakyMaryK/vtk58/Utilities/MaterialLibrary;C:/Users/FreakyMaryK/BuildVTK58/Utilities/verdict;C:/Users/FreakyMaryK/vtk58/Utilities/verdict;C:/Users/FreakyMaryK/BuildVTK58/Utilities/vtkhdf5;C:/Users/FreakyMaryK/vtk58/Utilities/vtkhdf5;C:/Users/FreakyMaryK/BuildVTK58/Utilities/vtkhdf5/src;C:/Users/FreakyMaryK/vtk58/Utilities/vtkhdf5/src;C:/Users/FreakyMaryK/vtk58/Utilities/utf8/source;C:/Users/FreakyMaryK/vtk58/Utilities/vtkalglib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="OffScreenRendering\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/FreakyMaryK/Desktop/offrender/OffScreenRendering/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Users/FreakyMaryK/Desktop/offrender/OffScreenRendering -BC:/Users/FreakyMaryK/Desktop/offrender --check-stamp-file C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/FreakyMaryK/Desktop/offrender/OffScreenRendering/CMakeLists.txt;C:\Users\FreakyMaryK\Desktop\offrender\OffScreenRendering\CMakeLists.txt;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeVS10FindMake.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystem.cmake.in;C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\2.8.11.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCCompiler.cmake.in;C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\2.8.11.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindVTK.cmake;C:\Users\FreakyMaryK\BuildVTK58\VTKConfigVersion.cmake;C:\Users\FreakyMaryK\BuildVTK58\VTKConfig.cmake;C:\Users\FreakyMaryK\BuildVTK58\VTKTargets.cmake;C:\Users\FreakyMaryK\BuildVTK58\UseVTK.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeImportBuildSettings.cmake;C:\Users\FreakyMaryK\vtk58\CMake\vtkMakeInstantiator.cmake;C:\Users\FreakyMaryK\Desktop\offrender\OffScreenRendering\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/FreakyMaryK/Desktop/offrender/OffScreenRendering/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Users/FreakyMaryK/Desktop/offrender/OffScreenRendering -BC:/Users/FreakyMaryK/Desktop/offrender --check-stamp-file C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/FreakyMaryK/Desktop/offrender/OffScreenRendering/CMakeLists.txt;C:\Users\FreakyMaryK\Desktop\offrender\OffScreenRendering\CMakeLists.txt;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeVS10FindMake.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystem.cmake.in;C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\2.8.11.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCCompiler.cmake.in;C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\2.8.11.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindVTK.cmake;C:\Users\FreakyMaryK\BuildVTK58\VTKConfigVersion.cmake;C:\Users\FreakyMaryK\BuildVTK58\VTKConfig.cmake;C:\Users\FreakyMaryK\BuildVTK58\VTKTargets.cmake;C:\Users\FreakyMaryK\BuildVTK58\UseVTK.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeImportBuildSettings.cmake;C:\Users\FreakyMaryK\vtk58\CMake\vtkMakeInstantiator.cmake;C:\Users\FreakyMaryK\Desktop\offrender\OffScreenRendering\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/FreakyMaryK/Desktop/offrender/OffScreenRendering/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Users/FreakyMaryK/Desktop/offrender/OffScreenRendering -BC:/Users/FreakyMaryK/Desktop/offrender --check-stamp-file C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/FreakyMaryK/Desktop/offrender/OffScreenRendering/CMakeLists.txt;C:\Users\FreakyMaryK\Desktop\offrender\OffScreenRendering\CMakeLists.txt;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeVS10FindMake.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystem.cmake.in;C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\2.8.11.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCCompiler.cmake.in;C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\2.8.11.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindVTK.cmake;C:\Users\FreakyMaryK\BuildVTK58\VTKConfigVersion.cmake;C:\Users\FreakyMaryK\BuildVTK58\VTKConfig.cmake;C:\Users\FreakyMaryK\BuildVTK58\VTKTargets.cmake;C:\Users\FreakyMaryK\BuildVTK58\UseVTK.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeImportBuildSettings.cmake;C:\Users\FreakyMaryK\vtk58\CMake\vtkMakeInstantiator.cmake;C:\Users\FreakyMaryK\Desktop\offrender\OffScreenRendering\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/FreakyMaryK/Desktop/offrender/OffScreenRendering/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Users/FreakyMaryK/Desktop/offrender/OffScreenRendering -BC:/Users/FreakyMaryK/Desktop/offrender --check-stamp-file C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/FreakyMaryK/Desktop/offrender/OffScreenRendering/CMakeLists.txt;C:\Users\FreakyMaryK\Desktop\offrender\OffScreenRendering\CMakeLists.txt;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeVS10FindMake.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystem.cmake.in;C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\2.8.11.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCCompiler.cmake.in;C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\2.8.11.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindVTK.cmake;C:\Users\FreakyMaryK\BuildVTK58\VTKConfigVersion.cmake;C:\Users\FreakyMaryK\BuildVTK58\VTKConfig.cmake;C:\Users\FreakyMaryK\BuildVTK58\VTKTargets.cmake;C:\Users\FreakyMaryK\BuildVTK58\UseVTK.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeImportBuildSettings.cmake;C:\Users\FreakyMaryK\vtk58\CMake\vtkMakeInstantiator.cmake;C:\Users\FreakyMaryK\Desktop\offrender\OffScreenRendering\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\00a86ddf9a08e64343440ce58bfdd314\ALL_BUILD.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/FreakyMaryK/Desktop/offrender/CMakeFiles/00a86ddf9a08e64343440ce58bfdd314/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\ALL_BUILD</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/FreakyMaryK/Desktop/offrender/CMakeFiles/00a86ddf9a08e64343440ce58bfdd314/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\ALL_BUILD</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/FreakyMaryK/Desktop/offrender/CMakeFiles/00a86ddf9a08e64343440ce58bfdd314/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\ALL_BUILD</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/FreakyMaryK/Desktop/offrender/CMakeFiles/00a86ddf9a08e64343440ce58bfdd314/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\ALL_BUILD</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\ALL_BUILD" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/FreakyMaryK/Desktop/offrender/OffScreenRendering.vcxproj">
+      <Project>AD24AC2C-30CB-48AD-9BCA-9D64992C2BF3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/FreakyMaryK/Desktop/offrender/ZERO_CHECK.vcxproj">
+      <Project>50D51DFD-357D-4AE4-83EE-F83BE8472D1E</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

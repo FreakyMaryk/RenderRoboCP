@@ -1,0 +1,205 @@
+The system is: Windows - 6.2 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+Microsoft (R) Visual Studio ┬хЁёш  10.0.30319.1.
+(C) ╩юЁяюЁрЎш  ╠рщъЁюёюЇЄ (Microsoft Corp.). ┬ёх яЁртр чр∙ш∙хэ√.
+1>------ Построение начато: проект: CompilerIdC, Конфигурация: Debug Win32 ------
+1>Построение начато 28.02.2014 16:42:29.
+1>InitializeBuildStatus:
+1>  Создание "Debug\CompilerIdC.unsuccessfulbuild", так как было задано "AlwaysCreate".
+1>ClCompile:
+1>  CMakeCCompilerId.c
+1>Link:
+1>  CompilerIdC.vcxproj -> C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\2.8.11.2\CompilerIdC\.\CompilerIdC.exe
+1>PostBuildEvent:
+1>  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe
+1>FinalizeBuildStatus:
+1>  Файл "Debug\CompilerIdC.unsuccessfulbuild" удаляется.
+1>  Обращение к "Debug\CompilerIdC.lastbuildstate".
+1>
+1>Построение успешно завершено.
+1>
+1>Затраченное время: 00:00:00.56
+========== Построение: успешно: 1, с ошибками: 0, без изменений: 0, пропущено: 0 ==========
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj.user"
+
+The C compiler identification is MSVC, found in "C:/Users/FreakyMaryK/Desktop/offrender/CMakeFiles/2.8.11.2/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+Microsoft (R) Visual Studio ┬хЁёш  10.0.30319.1.
+(C) ╩юЁяюЁрЎш  ╠рщъЁюёюЇЄ (Microsoft Corp.). ┬ёх яЁртр чр∙ш∙хэ√.
+1>------ Построение начато: проект: CompilerIdCXX, Конфигурация: Debug Win32 ------
+1>Построение начато 28.02.2014 16:42:32.
+1>InitializeBuildStatus:
+1>  Создание "Debug\CompilerIdCXX.unsuccessfulbuild", так как было задано "AlwaysCreate".
+1>ClCompile:
+1>  CMakeCXXCompilerId.cpp
+1>Link:
+1>  CompilerIdCXX.vcxproj -> C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\2.8.11.2\CompilerIdCXX\.\CompilerIdCXX.exe
+1>PostBuildEvent:
+1>  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe
+1>FinalizeBuildStatus:
+1>  Файл "Debug\CompilerIdCXX.unsuccessfulbuild" удаляется.
+1>  Обращение к "Debug\CompilerIdCXX.lastbuildstate".
+1>
+1>Построение успешно завершено.
+1>
+1>Затраченное время: 00:00:00.62
+========== Построение: успешно: 1, с ошибками: 0, без изменений: 0, пропущено: 0 ==========
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj.user"
+
+The CXX compiler identification is MSVC, found in "C:/Users/FreakyMaryK/Desktop/offrender/CMakeFiles/2.8.11.2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/FreakyMaryK/Desktop/offrender/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~2.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1418402256
+
+Microsoft (R) Visual Studio ┬хЁёш  10.0.30319.1.
+(C) ╩юЁяюЁрЎш  ╠рщъЁюёюЇЄ (Microsoft Corp.). ┬ёх яЁртр чр∙ш∙хэ√.
+1>------ Построение начато: проект: cmTryCompileExec1418402256, Конфигурация: Debug Win32 ------
+1>Построение начато 28.02.2014 16:42:36.
+1>PrepareForBuild:
+1>  Создание каталога "C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Создание "cmTryCompileExec1418402256.dir\Debug\cmTryCompileExec1418402256.unsuccessfulbuild", так как было задано "AlwaysCreate".
+1>ClCompile:
+1>  Оптимизирующий 32-разрядный компилятор Microsoft (R) C/C++ версии 16.00.30319.01 для 80x86
+1>  (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1418402256.dir\Debug\\" /Fd"C:/Users/FreakyMaryK/Desktop/offrender/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1418402256.pdb" /Gd /TC /analyze- /errorReport:prompt testCCompiler.c
+1>  
+1>  testCCompiler.c
+1>LinkEmbedManifest:
+1>  cmTryCompileExec1418402256.vcxproj -> C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1418402256.exe
+1>FinalizeBuildStatus:
+1>  Файл "cmTryCompileExec1418402256.dir\Debug\cmTryCompileExec1418402256.unsuccessfulbuild" удаляется.
+1>  Обращение к "cmTryCompileExec1418402256.dir\Debug\cmTryCompileExec1418402256.lastbuildstate".
+1>
+1>Построение успешно завершено.
+1>
+1>Затраченное время: 00:00:01.74
+========== Построение: успешно: 1, с ошибками: 0, без изменений: 0, пропущено: 0 ==========
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/FreakyMaryK/Desktop/offrender/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~2.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec981125531
+
+Microsoft (R) Visual Studio ┬хЁёш  10.0.30319.1.
+(C) ╩юЁяюЁрЎш  ╠рщъЁюёюЇЄ (Microsoft Corp.). ┬ёх яЁртр чр∙ш∙хэ√.
+1>------ Построение начато: проект: cmTryCompileExec981125531, Конфигурация: Debug Win32 ------
+1>Построение начато 28.02.2014 16:42:41.
+1>PrepareForBuild:
+1>  Создание каталога "C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Создание "cmTryCompileExec981125531.dir\Debug\cmTryCompileExec981125531.unsuccessfulbuild", так как было задано "AlwaysCreate".
+1>ClCompile:
+1>  Оптимизирующий 32-разрядный компилятор Microsoft (R) C/C++ версии 16.00.30319.01 для 80x86
+1>  (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec981125531.dir\Debug\\" /Fd"C:/Users/FreakyMaryK/Desktop/offrender/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec981125531.pdb" /Gd /TC /analyze- /errorReport:prompt "..\..\..\..\..\..\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"
+1>  
+1>  CMakeCCompilerABI.c
+1>LinkEmbedManifest:
+1>  cmTryCompileExec981125531.vcxproj -> C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec981125531.exe
+1>FinalizeBuildStatus:
+1>  Файл "cmTryCompileExec981125531.dir\Debug\cmTryCompileExec981125531.unsuccessfulbuild" удаляется.
+1>  Обращение к "cmTryCompileExec981125531.dir\Debug\cmTryCompileExec981125531.lastbuildstate".
+1>
+1>Построение успешно завершено.
+1>
+1>Затраченное время: 00:00:01.65
+========== Построение: успешно: 1, с ошибками: 0, без изменений: 0, пропущено: 0 ==========
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/FreakyMaryK/Desktop/offrender/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~2.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3387860156
+
+Microsoft (R) Visual Studio ┬хЁёш  10.0.30319.1.
+(C) ╩юЁяюЁрЎш  ╠рщъЁюёюЇЄ (Microsoft Corp.). ┬ёх яЁртр чр∙ш∙хэ√.
+1>------ Построение начато: проект: cmTryCompileExec3387860156, Конфигурация: Debug Win32 ------
+1>Построение начато 28.02.2014 16:42:46.
+1>PrepareForBuild:
+1>  Создание каталога "C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Создание "cmTryCompileExec3387860156.dir\Debug\cmTryCompileExec3387860156.unsuccessfulbuild", так как было задано "AlwaysCreate".
+1>ClCompile:
+1>  Оптимизирующий 32-разрядный компилятор Microsoft (R) C/C++ версии 16.00.30319.01 для 80x86
+1>  (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3387860156.dir\Debug\\" /Fd"C:/Users/FreakyMaryK/Desktop/offrender/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3387860156.pdb" /Gd /TP /analyze- /errorReport:prompt testCXXCompiler.cxx
+1>  
+1>  testCXXCompiler.cxx
+1>LinkEmbedManifest:
+1>  cmTryCompileExec3387860156.vcxproj -> C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3387860156.exe
+1>FinalizeBuildStatus:
+1>  Файл "cmTryCompileExec3387860156.dir\Debug\cmTryCompileExec3387860156.unsuccessfulbuild" удаляется.
+1>  Обращение к "cmTryCompileExec3387860156.dir\Debug\cmTryCompileExec3387860156.lastbuildstate".
+1>
+1>Построение успешно завершено.
+1>
+1>Затраченное время: 00:00:01.68
+========== Построение: успешно: 1, с ошибками: 0, без изменений: 0, пропущено: 0 ==========
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/FreakyMaryK/Desktop/offrender/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~2.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec565276825
+
+Microsoft (R) Visual Studio ┬хЁёш  10.0.30319.1.
+(C) ╩юЁяюЁрЎш  ╠рщъЁюёюЇЄ (Microsoft Corp.). ┬ёх яЁртр чр∙ш∙хэ√.
+1>------ Построение начато: проект: cmTryCompileExec565276825, Конфигурация: Debug Win32 ------
+1>Построение начато 28.02.2014 16:42:50.
+1>PrepareForBuild:
+1>  Создание каталога "C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Создание "cmTryCompileExec565276825.dir\Debug\cmTryCompileExec565276825.unsuccessfulbuild", так как было задано "AlwaysCreate".
+1>ClCompile:
+1>  Оптимизирующий 32-разрядный компилятор Microsoft (R) C/C++ версии 16.00.30319.01 для 80x86
+1>  (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec565276825.dir\Debug\\" /Fd"C:/Users/FreakyMaryK/Desktop/offrender/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec565276825.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\..\..\..\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"
+1>  
+1>  CMakeCXXCompilerABI.cpp
+1>LinkEmbedManifest:
+1>  cmTryCompileExec565276825.vcxproj -> C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec565276825.exe
+1>FinalizeBuildStatus:
+1>  Файл "cmTryCompileExec565276825.dir\Debug\cmTryCompileExec565276825.unsuccessfulbuild" удаляется.
+1>  Обращение к "cmTryCompileExec565276825.dir\Debug\cmTryCompileExec565276825.lastbuildstate".
+1>
+1>Построение успешно завершено.
+1>
+1>Затраченное время: 00:00:01.36
+========== Построение: успешно: 1, с ошибками: 0, без изменений: 0, пропущено: 0 ==========
+
+

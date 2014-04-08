@@ -1,0 +1,18 @@
+﻿Построение начато 13.03.2014 15:32:43.
+     1>Проект "C:\Users\FreakyMaryK\Desktop\SMR\offrender\ALL_BUILD.vcxproj" в узле 2 (целевые объекты rebuild).
+     1>_PrepareForClean:
+         Файл "Win32\Debug\ALL_BUILD\ALL_BUILD.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Создание "Win32\Debug\ALL_BUILD\ALL_BUILD.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       CustomBuild:
+         Building Custom Rule C:/Users/FreakyMaryK/Desktop/offrender/OffScreenRendering/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\FreakyMaryK\Desktop\offrender\CMakeFiles\generate.stamp is up-to-date.
+         Build all projects
+       FinalizeBuildStatus:
+         Файл "Win32\Debug\ALL_BUILD\ALL_BUILD.unsuccessfulbuild" удаляется.
+         Обращение к "Win32\Debug\ALL_BUILD\ALL_BUILD.lastbuildstate".
+     1>Построение проекта "C:\Users\FreakyMaryK\Desktop\SMR\offrender\ALL_BUILD.vcxproj" завершено (целевые объекты rebuild).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:00.25
