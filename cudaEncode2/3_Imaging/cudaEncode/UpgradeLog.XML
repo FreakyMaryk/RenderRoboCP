@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="cudaEncode_vs2008">
+</Property><Property Name="Файл решения" Value="C:\Users\FreakyMaryK\Desktop\SMR\cudaEncode2\3_Imaging\cudaEncode\cudaEncode_vs2008.sln">
+</Property><Property Name="Date" Value="27 марта 2014 г.">
+</Property><Property Name="Time" Value="17:42">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="cudaEncode_vs2008.sln" Description="Успешно создана резервная копия файла C:\Users\FreakyMaryK\Desktop\SMR\cudaEncode2\3_Imaging\cudaEncode\cudaEncode_vs2008.sln.old">
+</Event><Event ErrorLevel="0" Project="cudaEncode_vs2008" Source="cudaEncode_vs2008.vcproj" Description="Converting project file 'C:\Users\FreakyMaryK\Desktop\SMR\cudaEncode2\3_Imaging\cudaEncode\cudaEncode_vs2008.vcproj'.">
+</Event><Event ErrorLevel="1" Project="cudaEncode_vs2008" Source="cudaEncode_vs2008.vcproj" Description="VCConvertEngine.dll encountered an error.">
+</Event><Event ErrorLevel="1" Project="cudaEncode_vs2008" Source="cudaEncode_vs2008.vcproj" Description="VCConvertEngine.dll encountered an error.">
+</Event><Event ErrorLevel="1" Project="cudaEncode_vs2008" Source="cudaEncode_vs2008.vcproj" Description="VCConvertEngine could not convert attribute ConfigurationType = 1 under Configuration Debug|Win32.">
+</Event><Event ErrorLevel="1" Project="cudaEncode_vs2008" Source="cudaEncode_vs2008.vcproj" Description="VCConvertEngine could not convert attribute CharacterSet = 2 under Configuration Debug|Win32.">
+</Event><Event ErrorLevel="2" Project="cudaEncode_vs2008" Source="cudaEncode_vs2008.vcproj" Description="импортированный проект &quot;C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\NvCudaDriverApi.targets&quot; не обнаружен. Проверьте путь в объявлении &lt;Import&gt; и наличие файла на диске.  C:\Users\FreakyMaryK\Desktop\SMR\cudaEncode2\3_Imaging\cudaEncode\cudaEncode_vs2008.vcxproj">
+</Event><Event ErrorLevel="2" Project="C:\Users\FreakyMaryK\Desktop\SMR\cudaEncode2\3_Imaging\cudaEncode\cudaEncode_vs2008.vcproj" Source="" Description="The following error has occurred during XML parsing:&#xA;&#xA;File: C:\Users\FreakyMaryK\Desktop\SMR\cudaEncode2\3_Imaging\cudaEncode\cudaEncode_vs2008.vcproj&#xA;Line: 33&#xA;Column: 5&#xA;Error Message:&#xA;Системная ошибка: -2146233088.&#xA;&#xA;The file 'C:\Users\FreakyMaryK\Desktop\SMR\cudaEncode2\3_Imaging\cudaEncode\cudaEncode_vs2008.vcproj' has failed to load.">
+</Event><Event ErrorLevel="2" Project="cudaEncode_vs2008" Source="cudaEncode_vs2008.vcproj" Description="Не удалось обновить проект.">
+</Event><Event ErrorLevel="3" Project="cudaEncode_vs2008" Source="cudaEncode_vs2008.vcproj" Description="Не преобразован">
+</Event><Event ErrorLevel="0" Project="" Source="cudaEncode_vs2008.sln" Description="Преобразование решения успешно завершено">
+</Event><Event ErrorLevel="3" Project="" Source="cudaEncode_vs2008.sln" Description="Converted">
+</Event></UpgradeLog>
