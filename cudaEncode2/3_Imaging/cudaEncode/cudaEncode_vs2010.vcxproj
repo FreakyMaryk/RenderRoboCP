@@ -24,6 +24,7 @@
   <ItemGroup>
     <ClInclude Include="include\types.h" />
     <ClInclude Include="include\VideoEncoder.h" />
+    <ClInclude Include="main.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="data\plush_480p_60fr.yuv" />
@@ -41,7 +42,7 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
@@ -86,6 +87,7 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <CodeAnalysisRules />
     <CodeAnalysisRuleAssemblies />
+    <TargetExt>.dll</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>../../bin/win64/$(Configuration)/</OutDir>
@@ -124,7 +126,7 @@
       <SubSystem>Console</SubSystem>
       <AdditionalDependencies>nvcuvid.lib;nvcuvenc.lib;cuda.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(CudaToolkitLibDir);</AdditionalLibraryDirectories>
-      <OutputFile>$(OutDir)/cudaEncode.exe</OutputFile>
+      <OutputFile>$(OutDir)/cudaEncode.dll</OutputFile>
       <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
     </Link>
     <PostBuildEvent>

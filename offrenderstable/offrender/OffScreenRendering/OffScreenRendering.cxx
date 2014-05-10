@@ -36,6 +36,7 @@ int main(int, char *argv[])
 
 cudaError_t addWithCuda(unsigned char* buffer,unsigned char* ych, unsigned char* uch, unsigned char* vch, unsigned int size, int weight, int height);
 
+void Encode(int argc, char *argv[]);
 /*
 * This function in realized in .dll. It calls writer from three arrays with YUV colorspace coordinates.
 * input params: path for output file
@@ -102,7 +103,7 @@ int main(int argc, char *argv[])
   renderer->AddActor(actor);
   renWin->AddRenderer(renderer);
   renWin->SetOffScreenRendering(1);
-  renWin->SetSize(720,480);
+  renWin->SetSize(704,480);
   interactor->SetRenderWindow(renWin);
   renWin->Render();
  
@@ -165,7 +166,22 @@ int main(int argc, char *argv[])
 	// Write image in .BMP
    imageWriter->Write();
    // Start writing in .yuv file
-   writeYUVframe("C:\\Users\\FreakyMaryK\\Desktop\\SMR", 60, width, height, ych, uch, vch);
+   writeYUVframe("C:\\Users\\FreakyMaryK\\Desktop\\SMR\\offrenderstable\\offrender", 60, width, height, ych, uch, vch);
+   char **str = new char* [4];
+   char * str2;
+   str2 ="C:\\Users\\FreakyMaryK\\Desktop\\SMR\\cudaEncode3\\Bin\\win32\\Debug\\cudaEncode.exe";
+   str[0] = new char[70];
+   strcpy(str[0], str2);
+   str2 = "-input=111.yuv";
+   str[1] = new char[50];
+   strcpy(str[1], str2);
+   str2 = "-cfg=704x480-h264.cfg";
+   str[2] = new char[50];
+   strcpy(str[2], str2);
+   str2 = "-out=output.264";
+   str[3] = new char[50];
+   strcpy(str[3], str2);
+   Encode(4,str);
   return EXIT_SUCCESS;
 }
 #endif

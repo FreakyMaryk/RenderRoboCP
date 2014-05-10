@@ -121,10 +121,10 @@ bool ParseInputParams(int argc, char *argv[], NVEncoderParams *pParams)
     }
 
     // By default, we will define the default source and configuration files
-    strcpy(pParams->inputFile,  sdkFindFilePath(VIDEO_SOURCE_FILE, argv[0]));
+ /*   strcpy(pParams->inputFile,  sdkFindFilePath(VIDEO_SOURCE_FILE, argv[0]));
     strcpy(pParams->configFile, sdkFindFilePath(VIDEO_CONFIG_FILE, argv[0]));
     strcpy(pParams->outputFile, VIDEO_OUTPUT_FILE);
-
+	*/
     char *filePath = NULL;
 
     // These are single parameter options that can be passed in directly
@@ -182,7 +182,7 @@ bool ParseInputParams(int argc, char *argv[], NVEncoderParams *pParams)
             }
         }
 
-        if (checkCmdLineFlag(argc, (const char **)argv, "out"))
+          if (checkCmdLineFlag(argc, (const char **)argv, "out"))
         {
             char *output_name;
             getCmdLineArgumentString(argc, (const char **)argv, "out", &output_name);
@@ -387,7 +387,7 @@ static void _stdcall HandleOnEndFrame(const NVVE_EndFrameInfo *pefi, void *pUser
 
 
 // This is our main application code
-int main(int argc, char *argv[])
+_declspec(dllexport) void Encode(int argc, char *argv[])
 {
     HRESULT hr = S_OK;
     int retvalue = -1;

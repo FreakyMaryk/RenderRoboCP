@@ -1,25 +1,26 @@
-﻿Построение начато 09.05.2014 15:45:06.
-     1>Проект "C:\Users\FreakyMaryK\Desktop\SMR\cudaEncode2\3_Imaging\cudaEncode\cudaEncode_vs2010.vcxproj" в узле 2 (целевые объекты build).
-     1>PrepareForBuild:
-         Создание каталога "../../bin/win32/Debug/".
+﻿Построение начато 11.05.2014 2:25:16.
+     1>Проект "C:\Users\FreakyMaryK\Desktop\SMR\cudaEncode2\3_Imaging\cudaEncode\cudaEncode_vs2010.vcxproj" в узле 2 (целевые объекты rebuild).
+     1>_PrepareForClean:
+         Файл "Win32/Debug/cudaEncode.lastbuildstate" удаляется.
        InitializeBuildStatus:
-         Создание "Win32/Debug/cudaEncode.unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Win32/Debug/cudaEncode.unsuccessfulbuild".
        ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5/include" /I./ /I./include /I../../common/inc /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _MBCS /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32/Debug/" /Fd"Win32/Debug/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp VideoEncoder.cpp
          VideoEncoder.cpp
          main.cpp
          Создание кода...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../bin/win32/Debug//cudaEncode.exe" /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\lib\Win32" nvcuvid.lib nvcuvenc.lib cuda.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32/Debug/cudaEncode.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\FreakyMaryK\Desktop\SMR\cudaEncode2\bin\win32\Debug\cudaEncode.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../bin/win32/Debug/cudaEncode.lib" /MACHINE:X86 Win32/Debug/main.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../bin/win32/Debug//cudaEncode.dll" /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\lib\Win32" nvcuvid.lib nvcuvenc.lib cuda.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32/Debug/cudaEncode.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\FreakyMaryK\Desktop\SMR\cudaEncode2\bin\win32\Debug\cudaEncode.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../bin/win32/Debug/cudaEncode.lib" /MACHINE:X86 /DLL Win32/Debug/main.obj
          Win32/Debug/VideoEncoder.obj
-         cudaEncode_vs2010.vcxproj -> C:\Users\FreakyMaryK\Desktop\SMR\cudaEncode2\3_Imaging\cudaEncode\../../bin/win32/Debug/cudaEncode.exe
+            Создается библиотека ../../bin/win32/Debug/cudaEncode.lib и объект ../../bin/win32/Debug/cudaEncode.exp
+         cudaEncode_vs2010.vcxproj -> C:\Users\FreakyMaryK\Desktop\SMR\cudaEncode2\3_Imaging\cudaEncode\../../bin/win32/Debug/cudaEncode.dll
        Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../../bin/win32/Debug//cudaEncode.exe;#1" /manifest Win32/Debug/cudaEncode.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../../bin/win32/Debug//cudaEncode.dll;#2" /manifest Win32/Debug/cudaEncode.dll.intermediate.manifest
        FinalizeBuildStatus:
          Файл "Win32/Debug/cudaEncode.unsuccessfulbuild" удаляется.
          Обращение к "Win32/Debug/cudaEncode.lastbuildstate".
-     1>Построение проекта "C:\Users\FreakyMaryK\Desktop\SMR\cudaEncode2\3_Imaging\cudaEncode\cudaEncode_vs2010.vcxproj" завершено (целевые объекты build).
+     1>Построение проекта "C:\Users\FreakyMaryK\Desktop\SMR\cudaEncode2\3_Imaging\cudaEncode\cudaEncode_vs2010.vcxproj" завершено (целевые объекты rebuild).
 
 Построение успешно завершено.
 
-Затраченное время: 00:00:10.52
+Затраченное время: 00:00:02.35
